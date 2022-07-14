@@ -1,0 +1,161 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    background-color: #1F2937;
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo{
+    font-size: 24px; 
+    color: #F9FaF8;
+    font-weight: 800;
+}
+
+nav .links{
+    margin-left: auto;
+    font-size: 16px;
+}
+
+nav a{
+    color: #E5E7EB;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.resume{
+    background-color: #1F2937;
+    display: flex;
+    padding: 30px 100px;
+}
+
+.resume .slogan{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    padding-top: 50px;
+}
+
+.resume .text{
+    color: #E5E7EB;
+    width: 500px;
+}
+
+.resume button{
+    background-color: #3882F6;
+    color: #F9FaF8;
+    margin-top: 12px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.resume img{
+    background-color: gray;
+    width: 500px;
+    margin-left: auto;
+    color: white;
+    line-height: 200px;
+    text-align: center;
+}
+
+.generalInfo{
+    padding: 24px;
+}
+
+.generalInfo .topText{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.generalInfo .squares{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    padding:30px 30px;
+}
+
+.generalInfo .info{
+    text-align: center;
+}
+
+.generalInfo img{
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.generalInfo .text{
+    width: 200px;
+    padding-top: 15px;
+}
+
+.quotes{
+    background-color: #E5E7EB;
+    padding: 100px 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotes .quote{
+    font-size: 36px;
+    font-family: "light italic";
+}
+
+.quotes .author{
+    color: #1F2937;
+    font-size: 20px;
+    font: "light italic";
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.signUp{
+    padding: 100px;
+}
+
+.signUp .box{
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    padding: 30px;
+}
+
+.signUp .topText{
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.signUp .extraInfo{
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.signUp button{
+    margin-right: 30px;
+    margin-left: auto;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 3px solid #E5E7EB;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 12px;
+}
