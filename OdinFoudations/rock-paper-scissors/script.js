@@ -20,7 +20,11 @@ function playRound(playerSelection, computerSelection) {
         return 0;
     }
     //winnig case in which the greater number is allways the winner expect when its 1/3
-    else if(playerSelection > computerSelection || (playerSelection == 1 && computerSelection == 3)){
+    else if(((playerSelection > computerSelection) || (playerSelection == 1 && computerSelection == 3))){
+        if(playerSelection == 3 && computerSelection == 1){
+            console.log(`You Lose! ${choices[computerSelection-1]} beats ${choices[playerSelection-1]}`);
+            return 2;
+        }
         console.log(`You Win! ${choices[playerSelection-1]} beats ${choices[computerSelection-1]}`);
         return 1;
     }
